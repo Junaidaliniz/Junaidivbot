@@ -15,7 +15,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputFi
 import psycopg2
 from psycopg2 import pool as pg_pool
 
-YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8225744822:AAEeQEF2V1DVOnTXTmROuvG0cMp0I0kc75A")
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
 POLLING_INTERVAL_SECONDS = 2
