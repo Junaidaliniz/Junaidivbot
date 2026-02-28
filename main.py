@@ -15,7 +15,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputFi
 import psycopg2
 from psycopg2 import pool as pg_pool
 
-YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8390982569:AAFl2zxakzXjnvRiKe3Q3z_v3gawNnav-zA")
+YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8225744822:AAEDhMi-9u2GlgZstgVPBzai_sXCCFAyb14")
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://neondb_owner:npg_cXbWwm5l2ZtM@ep-broad-frost-aigt0qsl-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require")
 
 POLLING_INTERVAL_SECONDS = 2
