@@ -453,9 +453,9 @@ def load_welcome():
     return load_json(WELCOME_FILE, {
         "message": "POWRED-BY DARK MODS 🚀\n\nClick the button below to join the group where OTPs are posted:",
         "buttons": [
-            {"text": "📢 CHANNELS", "url": "https://t.me/DARK0MODS"},
-            {"text": "💬 MAIN CHAT", "url": "https://t.me/DARK1MODS"},
-            {"text": "☎ NUMBERS", "url": "https://t.me/NUMBER_MOD"}
+            {"text": "📢 CHANNELS", "url": "https://t.me/jndtech 1"},
+            {"text": "💬 MAIN CHAT", "url": "https://t.me/+wp1jTrshcwY4NDI0"},
+            {"text": "☎ NUMBERS", "url": "https://t.me/+c4VCxBCT3-QzZGFk"}
         ]
     })
 
