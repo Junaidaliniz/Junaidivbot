@@ -13,8 +13,8 @@ from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQuer
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, CopyTextButton
 from telegram.error import TelegramError
 
-YOUR_BOT_TOKEN = "BOT_TOKEN"
-INITIAL_OWNER = "OWNER_ID"
+YOUR_BOT_TOKEN = "8225744822:AAEDhMi-9u2GlgZstgVPBzai_sXCCFAyb14"
+INITIAL_OWNER = "7011937754"
 
 DATA_DIR = "data"
 PANELS_FILE = os.path.join(DATA_DIR, "panels.json")
