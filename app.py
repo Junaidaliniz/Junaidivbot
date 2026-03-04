@@ -13,8 +13,8 @@ from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQuer
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, CopyTextButton
 from telegram.error import TelegramError
 
-YOUR_BOT_TOKEN = "BOT_TOKEN"
-INITIAL_OWNER = "OWNER_ID"
+YOUR_BOT_TOKEN = "8531905777:AAGoES8Fh_D-18WlFzR4UvWskjtx1DiUi5k"
+INITIAL_OWNER = "7011937754"
 
 DATA_DIR = "data"
 PANELS_FILE = os.path.join(DATA_DIR, "panels.json")
@@ -453,9 +453,9 @@ def load_welcome():
     return load_json(WELCOME_FILE, {
         "message": "POWRED-BY DARK MODS 🚀\n\nClick the button below to join the group where OTPs are posted:",
         "buttons": [
-            {"text": "📢 CHANNELS", "url": "https://t.me/DARK0MODS"},
-            {"text": "💬 MAIN CHAT", "url": "https://t.me/DARK1MODS"},
-            {"text": "☎ NUMBERS", "url": "https://t.me/NUMBER_MOD"}
+            {"text": "📢 CHANNELS", "url": "https://t.me/Swift_Sajawal"},
+            {"text": "💬 MAIN CHAT", "url": "https://t.me/Swift_Sajawal"},
+            {"text": "🟢 Whatsapp", "url": "https://whatsapp.com/channel/0029VbBBY2BCsU9GLw1CSk2k"}
         ]
     })
 
